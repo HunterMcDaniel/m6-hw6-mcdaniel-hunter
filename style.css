@@ -1,0 +1,68 @@
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body{
+  font-family: sans-serif;
+}
+
+#top{
+  background-color: purple;
+  text-align: center;
+  padding: 7%;
+  color: white;
+}
+
+#section-h2{
+  text-align: center;
+  font-size: .7em;
+  color: purple;
+  padding: 4%;
+}
+
+#boxes{
+  text-align: center;
+  flex-direction: row;
+  justify-content: space-between;
+  color: purple;
+}
+
+
+input{
+  color: purple;
+}
+
+#box1{
+  border: solid purple 4px;
+  background-color: yellow;
+  padding: 8%;
+  font-size: 2.6em;
+}
+
+#box2{
+  border: solid purple 4px;
+  background-color: lightblue;
+  padding: 8%;
+  font-size: 2.6em;
+}
+
+#box3{
+  border: solid purple 4px;
+  background-color: lightgreen;
+  padding: 8%;
+  font-size: 2.6em;
+}
+
+.bottom{
+  margin: 0 auto;
+  text-align: center;
+  padding: 4%;
+}
+
+#startover{
+  padding: 2%;
+  background-color: darkgrey;
+  display: none;
+}
